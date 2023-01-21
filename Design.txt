@@ -1,0 +1,36 @@
+---- Overview: ----
+
+Important Note:
+My image_placement & error_message methods both work fine, but for some reason when I call my image_placement method.
+to display win/lose messages turtle shows the images when I don't quit the program. If quit() is uncommented 
+the images are not shown, time.sleep() and quit() functions are executed and the program quits. 
+
+I request the grader to comment/uncomment line 322 and/or 330
+to check the functionality 
+
+I consulted 2 TA's and both of them told me that it was a turtle issue
+and I should not worry about it 
+
+---- Design: ----
+
+I opted for Object Oriented Design and used a single class - TurtlePlay, which handles all the functionality of the game.
+I first created separate dictionaries for contents that I read from .puz files and loaded these dictionaries into my class.
+Then I created a frame on a turtle screen that has separate areas for the gameboard, leaderboard, and buttons.
+For my game board I created a nested list filled with '#' in the inner elements, this list represents a (N x N) grid.
+I updated the game board with turtle objects representing the pics of the images of the puzzle (in a solved configuration),
+based on the user's selection of the puzzle.
+
+For Swapping the tiles, I kept a track of the empty square position and checked if the adjacent tile is actually adjacent, if 
+that was the case then I changed the tiles inside my gameboard's nested list and redrew the board every time a swap happened. 
+To check the win loose conditions first I kept a track of the solved board's lists elements when I initially drew the board 
+(in my create_tiles method) for a default/new puzzle by saving them in a new list, then I compared that list's elements with the 
+current board's list by comparing strings of the two turtle objects. 
+
+---- Source Files: ----
+
+All files same plus two new addigtions the button gifs folder which has resized images of the buttons (a new image was used for the reset button)
+and the splash_screen_big.gif file which I placed in the resources folder
+
+---- Citations/References/Shoutouts ----
+
+Shoutout to Jared Grabber for helping me out with my leaderboard. 

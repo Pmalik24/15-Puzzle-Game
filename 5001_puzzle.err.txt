@@ -1,0 +1,5 @@
+09 December 2022, 19:14:19: ERROR: Could not open leaderboard file - Leaderboard Dummy.txt LOCATION: Turtleplay.frame()
+09 December 2022, 19:14:41: ERROR: File - dsfs does not exists. LOCATION: Turtleplay.click_button()
+09 December 2022, 19:21:36: ERROR: Could not open leaderboard file - Leaderboard Dummy.txt LOCATION: Turtleplay.frame()10 December 2022, 17:31:09: ERROR: File - None does not exists LOCATION: Turtleplay.click_button()
+10 December 2022, 17:46:15: ERROR: File - SMILEY.PUZ does not exists LOCATION: Turtleplay.click_button()
+10 December 2022, 17:46:23: ERROR: File - SMILEY.PUZ does not exists LOCATION: Turtleplay.click_button()
