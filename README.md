@@ -34,14 +34,14 @@ To create your own custom puzzles, follow these steps:
 1. Create a new `.puz` file in the project directory
 2. Add the necessary information to the file following this format:
 
-title: Your Puzzle Name
-number: Number of tiles (4, 9, or 16)
-size: Tile size in pixels
-thumbnail: Path to thumbnail image
-1: Path to first tile image
-2: Path to second tile image
-...
-n: Path to nth tile image
+   - title: Your Puzzle Name
+   - number: Number of tiles (4, 9, or 16)
+   - size: Tile size in pixels
+   - thumbnail: Path to thumbnail image
+   - 1: Path to first tile image
+   - 2: Path to second tile image
+   - ...
+   - n: Path to nth tile image
 
 3. Save the file and load it in the game by selecting it from the list of valid files
 
