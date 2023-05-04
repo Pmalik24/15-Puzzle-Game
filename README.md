@@ -15,8 +15,10 @@ This Sliding Puzzle Game is an interactive and visually appealing Python-based g
 ## Getting Started
 
 1. Clone the repository to your local machine
-2. Ensure Python 3.x is installed on your system
+2. Ensure Python 3.9 is installed on your system
 3. Install Turtle Graphics library if not already installed
+   - To install the Turtle Graphics library, run the following command:
+   - pip install PythonTurtle
 4. Navigate to the project directory and run `Game_driver.py` to launch the game
 
 ## How to Play
